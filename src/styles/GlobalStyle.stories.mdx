@@ -1,0 +1,54 @@
+import { GlobalStyle } from './GlobalStyle';
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+
+
+<Meta title="Styles/GlobalStyle" component={GlobalStyle}/>
+
+# GlobalStyle
+
+Css resets and base styleSheets definition
+```jsx
+const app = () =>{
+    <GlobalStyle />
+    <OtherComponent />
+}
+```
+## Typographs
+
+Basic global Typographs
+
+### Headings
+
+All HTML Heading, `<h1>` through `<h6>` are availabe
+
+<Preview>
+    <Story name="Heading">
+        <h1>Titulo 1</h1>
+        <h2>Titulo 2</h2>
+        <h3>Titulo 3</h3>
+        <h4>Titulo 4</h4>
+        <h5>Titulo 5</h5>
+        <h6>Titulo 6</h6>
+    </Story>
+</Preview>
+
+
+### Paragraph
+
+Styling for common text elements: 
+
+<Preview>
+    <Story name="Paragraph">
+        <p>Pack my box with five dozen liquor jugs.</p>
+        <p><strong>Pack my box with five dozen liquor jugs.</strong></p>
+        <p><em>Pack my box with five dozen liquor jugs.</em></p>
+        <p><u>Pack my box with five dozen liquor jugs.</u></p>
+        <p><s>Pack my box with five dozen liquor jugs.</s></p>
+        
+    </Story>
+</Preview>
+
+
+
+ 
+
